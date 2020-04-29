@@ -19,14 +19,15 @@
 
     <div class="container-fluid">
       <div class="row row-no-gutters">
-        <div class="col-sm-9 col-md-6 col-lg-7 col-xl-6" style="background-color:yellow;">
+        <div class="col-sm-9 col-md-6 col-lg-7 col-xl-6">
+          <h2>Sommer i Danmark med Spies</h2>
           Danmark er et vidunderligt land – især om sommeren. Så hvorfor rejse langt væk på sommerferie, når det danske land gemmer på nogle af de bedste feriesteder i verden? Der er nemlig intet skønnere end en sommerdag i det danske land.
           <br><br>  Friske sødmefulde jordbær, kilometerlange sandstrande, charmerende ferieøer, åbne vidder og maleriske landsbyer – det blot er par et par af de ting, der gør en sommerdag i Danmark til noget helt specielt.
           <br><br>  Nyd sandet mellem tæerne på en af de mange strande og få slappet helt af eller udforsk nye aktiviteter i det smukke sommerland. Uanset om du skal afsted med hele familien, venner, eller som par, så er der masser af muligheder for en skøn sommerferie i Danmark.
           <br><br>  Du kan tage børnene med ud og plukke deres egne jordbær, tage en dag med familien i zoologisk have og se alle de dyr du kan tænke på. Måske leje et sommerhus oppe i skagen for en romantisk getaway, eller tage til en af de mange sommer Koncerter og festivaler der bliver afholdt landet rundt.
           <br><br>  Hvis du ikke kan beslutte dig præcist for hvad du vil se, siden der er så mange muligheder i dette smukke land, kan du altid pakke tasken og et telt og tag en rundtur i landet. Og få set alt hvad dit hjerte løster.
         </div>
-        <div class="col-sm-3 col-md-6 col-lg-5 col-xl-6" style="background-color:pink;">
+        <div class="col-md-6 col-lg-5 col-xl-6">
           <img class="billede" src="strand1.jpg" alt="strand">
         </div>
       </div>
@@ -38,10 +39,17 @@
 
 <div class="container-fluid">
 <div class="row">
-  <div class="col-sm-6 col-md-6 col-lg-6" style="background-color:yellow;">
-    Her kommer der til at være en JS quiz
+  <div class="col-md-6 col-lg-6" id="quiz">
+    <div class="textDiv font-weight-bold">
+      <h2>Har du styr på din danske somre?</h2>
+    </div>
+    <br>
+    <div class="butnDiv">
+      <button id="start">Tag quizzen!</button>
+        <p id="result"></p>
+    </div>
   </div>
-  <div class="col-sm-6 col-md-6 col-lg-6" style="background-color:pink;">
+  <div class="col-md-6 col-lg-6" >
     <!--Section: Contact v.2-->
             <section class="mb-4">
 
@@ -109,7 +117,7 @@
                         </form>
 
                         <div class="text-center text-md-left">
-                            <a class="btn btn-primary" onclick="validateForm();" onclick="document.getElementById('contact-form').submit();" >Send</a>
+                            <a class="btn btn-primary"  onclick="validateForm();" onclick="document.getElementById('contact-form').submit();" style="background-color: #F37100; border: none; color: white; font-weight: bold;" >Send</a>
                         </div>
                         <div class="status"></div>
                     </div>
@@ -172,10 +180,10 @@
               <a href="#!" class="text-white">Kristina's portfolio</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Sarah's portfolio</a>
+              <a href="http://sarahboerger.dk/" class="text-white">Sarah's portfolio</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Sara's portfolio</a>
+              <a href="http://sarasandreasen.dk/ny-portfolio/index.html" class="text-white">Sara's portfolio</a>
             </li>
           </ul>
 
